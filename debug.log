@@ -1,0 +1,1342 @@
+- 00:30:33.094 INFO: --------------------------------------------------------
+- 00:30:33.094 INFO: Started application
+- 00:30:33.094 INFO: Logging to: C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 00:30:33.094 INFO: Log level = DEBUG4
+- 00:30:33.094 INFO: Starting Mongoose 3.9c web server
+- 00:30:33.094 INFO: WWW directory: C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 00:30:33.094 INFO: Index files: index.html,index.php
+- 00:30:33.094 INFO: CGI interpreter: C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 00:30:33.094 INFO: CGI pattern: **.php$
+- 00:30:33.094 INFO: Hide files patterns: 
+- 00:30:33.094 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WELING~1\AppData\Local\Temp\
+- 00:30:33.094 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:30:33.094 INFO: Web server url: http://127.0.0.1:63512/
+- 00:30:33.094 INFO: remote_debugging_port = 58640
+- 00:30:33.094 DEBUG: Command line string for the browser process: "C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=58640
+- 00:30:33.188 DEBUG: App::OnContextInitialized()
+- 00:30:33.188 INFO: DPI, window enlarged by 50% new width/height = 1200/900
+- 00:30:33.188 DEBUG: Window max width/height = 1846/1038
+- 00:30:33.188 DEBUG: GetBrowserWindow(): not found, hwnd = 6947680
+- 00:30:33.188 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:30:33.188 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:30:33.188 DEBUG: StoreBrowserWindow(): hwnd = 6947680
+- 00:30:33.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x13c2 --gpu-driver-vendor=NVIDIA --gpu-driver-version=27.21.14.5671 --gpu-driver-date=9-30-2020 --lang=en-US --log-file="C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=A5B43197FE2C44B6A797EF840681FE7F --mojo-platform-channel-handle=1832 /prefetch:2
+- 00:30:34.235 DEBUG: ClientHandler::OnAfterCreated()
+- 00:30:34.235 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:30:34.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:30:34.016 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FABC65C59DA63F76C8A68C7E2520C9D5 --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FABC65C59DA63F76C8A68C7E2520C9D5 --renderer-client-id=3 --mojo-platform-channel-handle=2424 /prefetch:1
+- 00:30:34.031 DEBUG: OnBrowserCreated()
+[0213/003034.238:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:30:35.391 INFO: GET 200 /style.css
+- 00:30:35.407 INFO: GET 200 /
+- 00:30:35.141 DEBUG: OnContextCreated()
+- 00:30:35.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63512/
+- 00:30:44.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63512/
+- 00:30:44.578 DEBUG: OnContextCreated()
+- 00:30:44.844 INFO: GET 200 /blenc_myscript.php
+- 00:30:44.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63512/blenc_myscript.php
+- 00:30:47.188 DEBUG: OnBeforeClose() hwnd=2229810
+- 00:30:47.188 DEBUG: RemoveBrowserWindow(): hwnd = 2229810
+- 00:30:47.188 DEBUG: GetBrowserWindow(): not found, hwnd = 2229810
+- 00:30:47.188 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:32:27.000 INFO: --------------------------------------------------------
+- 00:32:27.000 INFO: Started application
+- 00:32:27.000 INFO: Logging to: C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 00:32:27.000 INFO: Log level = DEBUG4
+- 00:32:27.000 INFO: Starting Mongoose 3.9c web server
+- 00:32:27.000 INFO: WWW directory: C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 00:32:27.000 INFO: Index files: index.html,index.php
+- 00:32:27.000 INFO: CGI interpreter: C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 00:32:27.000 INFO: CGI pattern: **.php$
+- 00:32:27.000 INFO: Hide files patterns: 
+- 00:32:27.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WELING~1\AppData\Local\Temp\
+- 00:32:27.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:32:27.000 INFO: Web server url: http://127.0.0.1:63523/
+- 00:32:27.000 INFO: remote_debugging_port = 56078
+- 00:32:27.000 DEBUG: Command line string for the browser process: "C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=56078
+- 00:32:27.063 DEBUG: App::OnContextInitialized()
+- 00:32:27.063 INFO: DPI, window enlarged by 50% new width/height = 1200/900
+- 00:32:27.063 DEBUG: Window max width/height = 1846/1038
+- 00:32:27.063 DEBUG: GetBrowserWindow(): not found, hwnd = 2032974
+- 00:32:27.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:32:27.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:32:27.063 DEBUG: StoreBrowserWindow(): hwnd = 2032974
+- 00:32:28.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x13c2 --gpu-driver-vendor=NVIDIA --gpu-driver-version=27.21.14.5671 --gpu-driver-date=9-30-2020 --lang=en-US --log-file="C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=5BF61AD1D6D617A8BB416BBC07CCA34E --mojo-platform-channel-handle=1772 /prefetch:2
+- 00:32:28.110 DEBUG: ClientHandler::OnAfterCreated()
+- 00:32:28.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:32:28.110 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:32:28.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E29D12BDA5B6559217807A0E6B9DACCF --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E29D12BDA5B6559217807A0E6B9DACCF --renderer-client-id=3 --mojo-platform-channel-handle=2368 /prefetch:1
+- 00:32:28.016 DEBUG: OnBrowserCreated()
+[0213/003228.087:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:32:29.188 INFO: GET 200 /
+- 00:32:29.188 INFO: GET 200 /css/index.css
+- 00:32:29.188 INFO: GET 200 /css/photon.css
+- 00:32:29.250 INFO: GET 200 /js/logica.js
+- 00:32:29.250 INFO: GET 200 /js/banco.js
+- 00:32:29.250 INFO: GET 200 /img/user.svg
+- 00:32:29.109 DEBUG: OnContextCreated()
+[0213/003229.158:INFO:CONSOLE(12)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/ (12)
+[0213/003229.169:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63523/js/logica.js (1)
+[0213/003229.170:INFO:CONSOLE(1)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/js/banco.js (1)
+- 00:32:29.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63523/
+[0213/003232.532:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63523/js/logica.js (57)
+- 00:32:32.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63523/
+- 00:32:32.625 INFO: GET 200 /os.html
+- 00:32:32.500 DEBUG: OnContextCreated()
+[0213/003232.549:INFO:CONSOLE(13)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/os.html (13)
+[0213/003232.568:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63523/js/logica.js (1)
+[0213/003232.569:INFO:CONSOLE(1)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/js/banco.js (1)
+- 00:32:32.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63523/os.html
+[0213/003236.122:INFO:CONSOLE(52)] "clicou no btn HOME", source: http://127.0.0.1:63523/js/logica.js (52)
+- 00:32:36.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63523/os.html
+- 00:32:36.219 INFO: GET 200 /index.html
+- 00:32:36.078 DEBUG: OnContextCreated()
+[0213/003236.140:INFO:CONSOLE(12)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/index.html (12)
+[0213/003236.142:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63523/js/logica.js (1)
+[0213/003236.142:INFO:CONSOLE(1)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/js/banco.js (1)
+- 00:32:36.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63523/index.html
+- 00:32:48.204 DEBUG: F12 pressed, opening developer tools
+- 00:32:48.219 DEBUG: ClientHandler::OnAfterCreated()
+- 00:32:48.219 DEBUG: GetBrowserWindow(): not found, hwnd = 3671052
+- 00:32:48.219 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 00:32:48.219 DEBUG: StoreBrowserWindow(): hwnd = 3671052
+- 00:32:48.219 DEBUG: Centering popup window relative to its parent
+- 00:32:48.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:32:48.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E324D17F379507FC92EE26AA9036F5EA --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E324D17F379507FC92EE26AA9036F5EA --renderer-client-id=4 --mojo-platform-channel-handle=3364 /prefetch:1
+- 00:32:48.016 DEBUG: OnBrowserCreated()
+- 00:32:48.032 DEBUG: OnContextCreated()
+- 00:32:48.407 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 00:33:27.657 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63523/index.html
+- 00:33:27.657 INFO: GET 200 /teste.html
+- 00:33:27.531 DEBUG: OnContextCreated()
+- 00:33:27.672 INFO: GET 200 /js/ex.js
+[0213/003327.588:INFO:CONSOLE(13)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/teste.html (13)
+[0213/003327.601:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63523/js/logica.js (1)
+[0213/003327.602:INFO:CONSOLE(2)] "ex.js funcionando", source: http://127.0.0.1:63523/js/ex.js (2)
+[0213/003327.602:INFO:CONSOLE(3)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/js/ex.js (3)
+- 00:33:27.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63523/teste.html
+[0213/003330.859:INFO:CONSOLE(16)] "sadsa", source: http://127.0.0.1:63523/js/ex.js (16)
+[0213/003330.860:INFO:CONSOLE(17)] "dsa", source: http://127.0.0.1:63523/js/ex.js (17)
+[0213/003330.860:INFO:CONSOLE(20)] "[object Undefined]", source: http://127.0.0.1:63523/js/ex.js (20)
+[0213/003330.860:INFO:CONSOLE(25)] "Uncaught ReferenceError: sql is not defined", source: http://127.0.0.1:63523/js/ex.js (25)
+- 00:33:37.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63523/teste.html
+- 00:33:37.141 DEBUG: OnContextCreated()
+[0213/003337.194:INFO:CONSOLE(12)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/index.html (12)
+[0213/003337.208:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63523/js/logica.js (1)
+[0213/003337.209:INFO:CONSOLE(1)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/js/banco.js (1)
+- 00:33:37.329 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63523/index.html
+- 00:33:40.407 DEBUG: ClientHandler::OnBeforePopup()
+- 00:33:40.407 INFO: Setting default size for a popup window 800/600
+- 00:33:40.407 INFO: DPI, window enlarged by 50% new width/height = 1200/900
+- 00:33:40.407 DEBUG: Window max width/height = 1846/1038
+- 00:33:40.266 DEBUG: OnBrowserCreated()
+- 00:33:40.422 DEBUG: ClientHandler::OnAfterCreated()
+- 00:33:40.422 DEBUG: GetBrowserWindow(): not found, hwnd = 4391998
+- 00:33:40.422 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 00:33:40.422 DEBUG: StoreBrowserWindow(): hwnd = 4391998
+- 00:33:40.438 DEBUG: Centering popup window relative to its parent
+- 00:33:40.438 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:33:41.406 DEBUG: OnContextCreated()
+[0213/003341.866:INFO:CONSOLE(0)] "
+%cStop!", source:  (0)
+[0213/003341.867:INFO:CONSOLE(0)] "
+%cThis is a browser feature intended for developers. If someone told you to copy-paste something here to enable a Facebook feature or "hack" someone's account, it is a scam and will give them access to your Facebook account.", source:  (0)
+[0213/003341.867:INFO:CONSOLE(0)] "
+%cSee https://www.facebook.com/selfxss for more information.", source:  (0)
+[0213/003341.867:INFO:CONSOLE(0)] "
+%c", source:  (0)
+- 00:33:42.984 DEBUG: OnContextCreated()
+- 00:33:42.391 DEBUG: OnLoadingStateChange: loading=0, url=https://www.facebook.com/NegrillosBF
+- 00:33:44.032 DEBUG: OnBeforeClose() hwnd=4391998
+- 00:33:44.032 DEBUG: RemoveBrowserWindow(): hwnd = 4391998
+- 00:33:44.891 DEBUG: OnBrowserDestroyed()
+[0213/003350.084:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63523/js/logica.js (57)
+- 00:33:50.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63523/index.html
+- 00:33:50.047 DEBUG: OnContextCreated()
+[0213/003350.110:INFO:CONSOLE(13)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/os.html (13)
+[0213/003350.149:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63523/js/logica.js (1)
+[0213/003350.149:INFO:CONSOLE(1)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/js/banco.js (1)
+- 00:33:50.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63523/os.html
+[0213/003352.604:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63523/js/logica.js (57)
+- 00:33:52.704 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63523/os.html
+- 00:33:52.563 DEBUG: OnContextCreated()
+[0213/003352.622:INFO:CONSOLE(13)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/os.html (13)
+[0213/003352.654:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63523/js/logica.js (1)
+[0213/003352.654:INFO:CONSOLE(1)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/js/banco.js (1)
+- 00:33:52.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63523/os.html
+[0213/003353.859:INFO:CONSOLE(67)] "clicou no btn Produtos", source: http://127.0.0.1:63523/js/logica.js (67)
+- 00:33:53.954 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63523/os.html
+- 00:33:53.954 INFO: GET 200 /produtos.html
+- 00:33:53.828 DEBUG: OnContextCreated()
+[0213/003353.881:INFO:CONSOLE(12)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/produtos.html (12)
+[0213/003353.894:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63523/js/logica.js (1)
+- 00:33:53.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63523/produtos.html
+[0213/003354.659:INFO:CONSOLE(71)] "clicou no btn Caixa", source: http://127.0.0.1:63523/js/logica.js (71)
+- 00:33:54.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63523/produtos.html
+- 00:33:54.766 INFO: GET 200 /caixa.html
+- 00:33:54.625 DEBUG: OnContextCreated()
+[0213/003354.681:INFO:CONSOLE(12)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/caixa.html (12)
+[0213/003354.693:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63523/js/logica.js (1)
+- 00:33:54.829 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63523/caixa.html
+[0213/003357.715:INFO:CONSOLE(52)] "clicou no btn HOME", source: http://127.0.0.1:63523/js/logica.js (52)
+- 00:33:57.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63523/caixa.html
+- 00:33:57.672 DEBUG: OnContextCreated()
+[0213/003357.734:INFO:CONSOLE(12)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/index.html (12)
+[0213/003357.749:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63523/js/logica.js (1)
+[0213/003357.750:INFO:CONSOLE(1)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63523/js/banco.js (1)
+- 00:33:57.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63523/index.html
+- 00:34:06.250 DEBUG: OnBeforeClose() hwnd=3671052
+- 00:34:06.250 DEBUG: RemoveBrowserWindow(): hwnd = 3671052
+- 00:34:06.000 DEBUG: OnBrowserDestroyed()
+- 00:34:07.063 DEBUG: WM_DESTROY
+- 00:34:07.063 DEBUG: RemoveBrowserWindow(): hwnd = 2032974
+- 00:34:07.063 INFO: Stopping Mongoose web server
+- 00:34:07.063 DEBUG: Mongoose webserver stopped immediately
+- 00:34:07.079 DEBUG: OnBeforeClose() hwnd=2295152
+- 00:34:07.079 DEBUG: RemoveBrowserWindow(): hwnd = 2295152
+- 00:34:07.079 DEBUG: GetBrowserWindow(): not found, hwnd = 2295152
+- 00:34:07.079 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:34:07.079 DEBUG: Calling CefQuitMessageLoop()
+- 00:34:07.938 DEBUG: OnBrowserDestroyed()
+- 00:34:08.094 INFO: Ended application
+- 00:34:08.094 INFO: --------------------------------------------------------
+- 00:35:46.000 INFO: --------------------------------------------------------
+- 00:35:46.000 INFO: Started application
+- 00:35:46.000 INFO: Logging to: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log
+- 00:35:46.000 INFO: Log level = DEBUG4
+- 00:35:46.000 INFO: Starting Mongoose 3.9c web server
+- 00:35:46.000 INFO: WWW directory: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\www
+- 00:35:46.000 INFO: Index files: login.html,login.php
+- 00:35:46.000 INFO: CGI interpreter: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\php\php-cgi.exe
+- 00:35:46.000 INFO: CGI pattern: **.php$
+- 00:35:46.000 INFO: Hide files patterns: 
+- 00:35:46.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WELING~1\AppData\Local\Temp\
+- 00:35:46.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:35:46.000 INFO: Web server url: http://127.0.0.1:63557/
+- 00:35:46.000 INFO: remote_debugging_port = 49167
+- 00:35:46.000 DEBUG: Command line string for the browser process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --remote-debugging-port=49167
+- 00:35:46.063 DEBUG: App::OnContextInitialized()
+- 00:35:46.063 INFO: DPI, window enlarged by 50% new width/height = 1200/900
+- 00:35:46.063 DEBUG: Window max width/height = 1846/1038
+- 00:35:46.063 DEBUG: GetBrowserWindow(): not found, hwnd = 1639638
+- 00:35:46.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:35:46.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:35:46.063 DEBUG: StoreBrowserWindow(): hwnd = 1639638
+- 00:35:46.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x13c2 --gpu-driver-vendor=NVIDIA --gpu-driver-version=27.21.14.5671 --gpu-driver-date=9-30-2020 --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --service-request-channel-token=498805C168C2BD7AACCA7371E79CFFE7 --mojo-platform-channel-handle=1788 /prefetch:2
+- 00:35:47.110 DEBUG: ClientHandler::OnAfterCreated()
+- 00:35:47.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:35:47.110 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:35:47.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=BBE7C33B94C622B6DA3C3811CF9214D1 --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=BBE7C33B94C622B6DA3C3811CF9214D1 --renderer-client-id=3 --mojo-platform-channel-handle=2392 /prefetch:1
+- 00:35:47.016 DEBUG: OnBrowserCreated()
+[0213/003547.076:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:35:48.188 INFO: GET 200 /
+- 00:35:48.188 INFO: GET 200 /css/index.css
+- 00:35:48.188 INFO: GET 200 /css/photon.css
+- 00:35:48.188 INFO: GET 200 /css/login.css
+- 00:35:48.188 INFO: GET 200 /js/logica.js
+- 00:35:48.204 INFO: GET 200 /img/logo.png
+- 00:35:48.203 DEBUG: OnContextCreated()
+[0213/003548.242:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63557/js/logica.js (1)
+- 00:35:48.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63557/
+- 00:36:01.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63557/
+- 00:36:01.422 INFO: GET 200 /index.html
+- 00:36:01.281 DEBUG: OnContextCreated()
+- 00:36:01.438 INFO: GET 200 /js/banco.js
+- 00:36:01.438 INFO: GET 200 /img/user.svg
+[0213/003601.347:INFO:CONSOLE(12)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63557/index.html (12)
+[0213/003601.352:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63557/js/logica.js (1)
+[0213/003601.352:INFO:CONSOLE(1)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63557/js/banco.js (1)
+- 00:36:01.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63557/index.html
+- 00:36:31.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63557/index.html
+- 00:36:31.844 INFO: GET 200 /login.html
+- 00:36:31.703 DEBUG: OnContextCreated()
+[0213/003631.766:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63557/js/logica.js (1)
+- 00:36:31.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63557/login.html
+- 00:36:54.532 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63557/login.html
+- 00:36:54.391 DEBUG: OnContextCreated()
+[0213/003654.448:INFO:CONSOLE(12)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63557/index.html (12)
+[0213/003654.452:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63557/js/logica.js (1)
+[0213/003654.452:INFO:CONSOLE(1)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63557/js/banco.js (1)
+- 00:36:54.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63557/index.html
+- 00:37:19.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63557/index.html
+- 00:37:19.734 DEBUG: OnContextCreated()
+[0213/003719.795:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63557/js/logica.js (1)
+- 00:37:19.907 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63557/login.html
+- 00:37:23.547 DEBUG: ClientHandler::OnAfterCreated()
+- 00:37:23.547 DEBUG: GetBrowserWindow(): not found, hwnd = 8782688
+- 00:37:23.547 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 00:37:23.547 DEBUG: StoreBrowserWindow(): hwnd = 8782688
+- 00:37:23.547 DEBUG: Centering popup window relative to its parent
+- 00:37:23.547 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:37:23.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=D9C109DAB47BDACFE79F805C7CC14AB2 --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D9C109DAB47BDACFE79F805C7CC14AB2 --renderer-client-id=4 --mojo-platform-channel-handle=3452 /prefetch:1
+- 00:37:23.016 DEBUG: OnBrowserCreated()
+- 00:37:23.031 DEBUG: OnContextCreated()
+- 00:37:23.735 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 00:38:03.063 DEBUG: OnLoadingStateChange: loading=1, url=chrome-devtools://devtools/inspector.html
+- 00:38:03.469 DEBUG: OnContextCreated()
+- 00:38:04.157 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 00:38:08.047 DEBUG: OnBeforeClose() hwnd=8782688
+- 00:38:08.047 DEBUG: RemoveBrowserWindow(): hwnd = 8782688
+- 00:38:08.453 DEBUG: OnBrowserDestroyed()
+- 00:51:04.000 INFO: --------------------------------------------------------
+- 00:51:04.000 INFO: Started application
+- 00:51:04.000 INFO: Logging to: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log
+- 00:51:04.000 INFO: Log level = DEBUG4
+- 00:51:04.000 INFO: Starting Mongoose 3.9c web server
+- 00:51:04.000 INFO: WWW directory: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\www
+- 00:51:04.000 INFO: Index files: login.html,login.php
+- 00:51:04.000 INFO: CGI interpreter: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\php\php-cgi.exe
+- 00:51:04.000 INFO: CGI pattern: **.php$
+- 00:51:04.000 INFO: Hide files patterns: 
+- 00:51:04.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WELING~1\AppData\Local\Temp\
+- 00:51:04.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:51:04.000 INFO: Web server url: http://127.0.0.1:63686/
+- 00:51:04.000 INFO: remote_debugging_port = 65171
+- 00:51:04.000 DEBUG: Command line string for the browser process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --remote-debugging-port=65171
+- 00:51:04.063 DEBUG: App::OnContextInitialized()
+- 00:51:04.063 INFO: DPI, window enlarged by 50% new width/height = 1200/900
+- 00:51:04.063 DEBUG: Window max width/height = 1846/1038
+- 00:51:04.063 DEBUG: GetBrowserWindow(): not found, hwnd = 2032916
+- 00:51:04.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:51:04.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:51:04.063 DEBUG: StoreBrowserWindow(): hwnd = 2032916
+- 00:51:04.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x13c2 --gpu-driver-vendor=NVIDIA --gpu-driver-version=27.21.14.5671 --gpu-driver-date=9-30-2020 --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --service-request-channel-token=D9EA9A3F8F4AB0B737543A4203388AEE --mojo-platform-channel-handle=1756 /prefetch:2
+- 00:51:04.110 DEBUG: ClientHandler::OnAfterCreated()
+- 00:51:04.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:51:04.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:51:04.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=FE83430A1BEA74274150E02C1A39DB2B --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FE83430A1BEA74274150E02C1A39DB2B --renderer-client-id=3 --mojo-platform-channel-handle=2356 /prefetch:1
+- 00:51:04.031 DEBUG: OnBrowserCreated()
+[0213/005104.698:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0213/005104.698:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\webcache\GPUCache to C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\webcache\old_GPUCache_000
+[0213/005104.698:ERROR:disk_cache.cc(132)] Unable to create cache
+[0213/005104.698:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0213/005104.700:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0213/005104.700:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\webcache\Cache to C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\webcache\old_Cache_000
+[0213/005104.700:ERROR:disk_cache.cc(132)] Unable to create cache
+[0213/005104.701:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:51:05.297 INFO: GET 200 /css/index.css
+- 00:51:05.297 INFO: GET 200 /css/photon.css
+- 00:51:05.297 INFO: GET 200 /css/login.css
+- 00:51:05.297 INFO: GET 200 /
+- 00:51:05.344 INFO: GET 200 /js/logica.js
+- 00:51:05.344 INFO: GET 200 /img/logo.png
+- 00:51:05.313 DEBUG: OnContextCreated()
+[0213/005105.976:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63686/js/logica.js (1)
+- 00:51:06.485 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63686/
+- 00:51:19.282 DEBUG: ClientHandler::OnAfterCreated()
+- 00:51:19.282 DEBUG: GetBrowserWindow(): not found, hwnd = 1574354
+- 00:51:19.282 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 00:51:19.282 DEBUG: StoreBrowserWindow(): hwnd = 1574354
+- 00:51:19.297 DEBUG: Centering popup window relative to its parent
+- 00:51:19.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:51:19.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=B0FF97AF431B97D3F6E15CBF024D288D --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B0FF97AF431B97D3F6E15CBF024D288D --renderer-client-id=4 --mojo-platform-channel-handle=2700 /prefetch:1
+- 00:51:19.015 DEBUG: OnBrowserCreated()
+- 00:51:19.031 DEBUG: OnContextCreated()
+- 00:51:20.485 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 00:51:20.594 INFO: GET 200 /css/index.css
+- 00:51:20.594 INFO: GET 200 /css/photon.css
+- 00:51:20.594 INFO: GET 200 /css/login.css
+- 00:52:02.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63686/
+- 00:52:02.078 DEBUG: OnContextCreated()
+- 00:52:02.219 INFO: GET 200 /index.php
+- 00:52:02.219 INFO: GET 200 /img/user.svg
+- 00:52:02.219 INFO: GET 304 /js/logica.js
+- 00:52:02.219 INFO: GET 200 /js/banco.js
+[0213/005202.765:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63686/js/logica.js (1)
+[0213/005202.767:INFO:CONSOLE(1)] "Uncaught ReferenceError: require is not defined", source: http://127.0.0.1:63686/js/banco.js (1)
+- 00:52:02.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63686/index.php
+- 00:52:32.344 DEBUG: WM_DESTROY
+- 00:52:32.344 DEBUG: RemoveBrowserWindow(): hwnd = 1639638
+- 00:52:32.344 INFO: Stopping Mongoose web server
+- 00:52:32.344 DEBUG: Mongoose webserver stopped immediately
+- 00:52:32.344 DEBUG: OnBeforeClose() hwnd=787924
+- 00:52:32.344 DEBUG: RemoveBrowserWindow(): hwnd = 787924
+- 00:52:32.344 DEBUG: GetBrowserWindow(): not found, hwnd = 787924
+- 00:52:32.344 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:52:32.344 DEBUG: Calling CefQuitMessageLoop()
+- 00:52:32.360 INFO: Ended application
+- 00:52:32.360 INFO: --------------------------------------------------------
+- 00:52:47.907 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63686/index.php
+- 00:52:47.875 DEBUG: OnContextCreated()
+- 00:52:47.016 INFO: GET 200 /index.php
+- 00:52:47.016 INFO: GET 200 /css/index.css
+- 00:52:47.016 INFO: GET 200 /css/photon.css
+- 00:52:47.016 INFO: GET 200 /js/logica.js
+- 00:52:47.016 INFO: GET 200 /js/banco.js
+- 00:52:47.016 INFO: GET 200 /img/user.svg
+[0213/005247.561:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63686/js/logica.js (1)
+[0213/005247.564:INFO:CONSOLE(4)] "Uncaught ReferenceError: mysql is not defined", source: http://127.0.0.1:63686/js/banco.js (4)
+- 00:52:47.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63686/index.php
+- 00:52:57.110 DEBUG: OnBeforeClose() hwnd=1574354
+- 00:52:57.110 DEBUG: RemoveBrowserWindow(): hwnd = 1574354
+- 00:53:19.907 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63686/index.php
+- 00:53:19.859 DEBUG: OnContextCreated()
+- 00:53:19.016 INFO: GET 200 /index.php
+- 00:53:19.016 INFO: GET 200 /css/index.css
+- 00:53:19.016 INFO: GET 200 /css/photon.css
+- 00:53:19.016 INFO: GET 200 /js/logica.js
+- 00:53:19.016 INFO: GET 404 /js/banco.js
+- 00:53:19.016 INFO: GET 200 /img/user.svg
+[0213/005319.559:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63686/js/logica.js (1)
+- 00:53:19.032 INFO: GET 404 /js/banco.js
+- 00:53:19.032 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63686/index.php
+[0213/005327.236:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63686/js/logica.js (57)
+- 00:53:27.704 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63686/index.php
+- 00:53:27.672 DEBUG: OnContextCreated()
+- 00:53:27.813 INFO: GET 200 /css/index.css
+- 00:53:27.813 INFO: GET 200 /css/photon.css
+- 00:53:27.813 INFO: GET 200 /os.php
+- 00:53:27.813 INFO: GET 404 /js/banco.js
+[0213/005327.365:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63686/js/logica.js (1)
+- 00:53:27.844 INFO: GET 404 /js/banco.js
+- 00:53:27.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63686/os.php
+[0213/005330.924:INFO:CONSOLE(52)] "clicou no btn HOME", source: http://127.0.0.1:63686/js/logica.js (52)
+- 00:53:30.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63686/os.php
+- 00:53:31.359 DEBUG: OnContextCreated()
+- 00:53:31.500 INFO: GET 200 /css/index.css
+- 00:53:31.500 INFO: GET 200 /index.php
+- 00:53:31.500 INFO: GET 200 /css/photon.css
+- 00:53:31.500 INFO: GET 404 /js/banco.js
+- 00:53:31.500 INFO: GET 200 /img/user.svg
+[0213/005331.047:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63686/js/logica.js (1)
+- 00:53:31.516 INFO: GET 404 /js/banco.js
+- 00:53:31.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63686/index.php
+- 00:53:36.469 DEBUG: ClientHandler::OnAfterCreated()
+- 00:53:36.469 DEBUG: GetBrowserWindow(): not found, hwnd = 2754064
+- 00:53:36.469 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 00:53:36.469 DEBUG: StoreBrowserWindow(): hwnd = 2754064
+- 00:53:37.469 DEBUG: Centering popup window relative to its parent
+- 00:53:37.485 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:53:37.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=045308D2795C405BA0321E0D225D0BA2 --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=045308D2795C405BA0321E0D225D0BA2 --renderer-client-id=5 --mojo-platform-channel-handle=3440 /prefetch:1
+- 00:53:37.016 DEBUG: OnBrowserCreated()
+- 00:53:37.031 DEBUG: OnContextCreated()
+- 00:53:37.657 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 00:53:52.235 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63686/index.php
+- 00:53:52.203 DEBUG: OnContextCreated()
+- 00:53:52.344 INFO: GET 200 /index.php
+- 00:53:52.344 INFO: GET 200 /css/index.css
+- 00:53:52.344 INFO: GET 200 /css/photon.css
+- 00:53:52.360 INFO: GET 200 /js/logica.js
+- 00:53:52.360 INFO: GET 404 /js/banco.js
+- 00:53:52.360 INFO: GET 200 /img/user.svg
+[0213/005352.896:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63686/js/logica.js (1)
+- 00:53:52.375 INFO: GET 404 /js/banco.js
+- 00:53:52.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63686/index.php
+- 00:55:06.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63686/index.php
+- 00:55:06.766 DEBUG: OnContextCreated()
+- 00:55:06.907 INFO: GET 200 /index.php
+- 00:55:06.907 INFO: GET 200 /css/index.css
+- 00:55:06.907 INFO: GET 200 /css/photon.css
+- 00:55:06.922 INFO: GET 200 /js/logica.js
+- 00:55:06.922 INFO: GET 200 /img/user.svg
+[0213/005506.474:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63686/js/logica.js (1)
+- 00:55:06.954 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63686/index.php
+- 00:55:13.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63686/index.php
+- 00:55:13.500 DEBUG: OnContextCreated()
+- 00:55:13.641 INFO: GET 200 /teste.php
+- 00:55:13.641 INFO: GET 200 /css/index.css
+- 00:55:13.641 INFO: GET 200 /css/photon.css
+[0213/005513.193:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63686/js/logica.js (1)
+- 00:55:13.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63686/teste.php
+- 00:55:21.735 DEBUG: OnBeforeClose() hwnd=2754064
+- 00:55:21.735 DEBUG: RemoveBrowserWindow(): hwnd = 2754064
+- 00:55:21.219 DEBUG: OnBrowserDestroyed()
+- 00:55:21.735 DEBUG: WM_DESTROY
+- 00:55:21.735 DEBUG: RemoveBrowserWindow(): hwnd = 2032916
+- 00:55:21.735 INFO: Stopping Mongoose web server
+- 00:55:21.735 DEBUG: Mongoose webserver stopped immediately
+- 00:55:21.735 DEBUG: OnBeforeClose() hwnd=3146752
+- 00:55:21.735 DEBUG: RemoveBrowserWindow(): hwnd = 3146752
+- 00:55:21.735 DEBUG: GetBrowserWindow(): not found, hwnd = 3146752
+- 00:55:21.735 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:55:21.735 DEBUG: Calling CefQuitMessageLoop()
+- 00:55:21.609 DEBUG: OnBrowserDestroyed()
+- 00:55:21.766 INFO: Ended application
+- 00:55:21.766 INFO: --------------------------------------------------------
+- 00:55:55.000 INFO: --------------------------------------------------------
+- 00:55:55.000 INFO: Started application
+- 00:55:55.000 INFO: Logging to: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log
+- 00:55:55.000 INFO: Log level = DEBUG4
+- 00:55:55.000 INFO: Starting Mongoose 3.9c web server
+- 00:55:55.000 INFO: WWW directory: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\www
+- 00:55:55.000 INFO: Index files: login.html,login.php
+- 00:55:55.000 INFO: CGI interpreter: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\php\php-cgi.exe
+- 00:55:55.000 INFO: CGI pattern: **.php$
+- 00:55:55.000 INFO: Hide files patterns: 
+- 00:55:55.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WELING~1\AppData\Local\Temp\
+- 00:55:55.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:55:55.000 INFO: Web server url: http://127.0.0.1:63762/
+- 00:55:55.000 INFO: remote_debugging_port = 51645
+- 00:55:55.000 DEBUG: Command line string for the browser process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --remote-debugging-port=51645
+- 00:55:55.062 DEBUG: App::OnContextInitialized()
+- 00:55:55.062 INFO: DPI, window enlarged by 50% new width/height = 1200/900
+- 00:55:55.062 DEBUG: Window max width/height = 1846/1038
+- 00:55:55.062 DEBUG: GetBrowserWindow(): not found, hwnd = 8717350
+- 00:55:55.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:55:55.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:55:55.062 DEBUG: StoreBrowserWindow(): hwnd = 8717350
+- 00:55:55.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x13c2 --gpu-driver-vendor=NVIDIA --gpu-driver-version=27.21.14.5671 --gpu-driver-date=9-30-2020 --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --service-request-channel-token=F00C0F0A60AC0A9CE10D77365D9C4310 --mojo-platform-channel-handle=1752 /prefetch:2
+- 00:55:55.094 DEBUG: ClientHandler::OnAfterCreated()
+- 00:55:55.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:55:55.109 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:55:55.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=1FF60BD3A0773FD8E5C0DD5B41A0BFC1 --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1FF60BD3A0773FD8E5C0DD5B41A0BFC1 --renderer-client-id=3 --mojo-platform-channel-handle=2364 /prefetch:1
+- 00:55:55.031 DEBUG: OnBrowserCreated()
+[0213/005555.172:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:55:56.265 INFO: GET 200 /
+- 00:55:56.265 INFO: GET 200 /css/index.css
+- 00:55:56.265 INFO: GET 200 /css/photon.css
+- 00:55:56.265 INFO: GET 200 /css/login.css
+- 00:55:56.281 INFO: GET 200 /js/logica.js
+- 00:55:56.281 INFO: GET 200 /img/logo.png
+- 00:55:56.156 DEBUG: OnContextCreated()
+[0213/005556.295:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63762/js/logica.js (1)
+- 00:55:56.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63762/
+- 00:56:18.125 DEBUG: WM_DESTROY
+- 00:56:18.125 DEBUG: RemoveBrowserWindow(): hwnd = 8717350
+- 00:56:18.125 INFO: Stopping Mongoose web server
+- 00:56:18.125 DEBUG: Mongoose webserver stopped immediately
+- 00:56:18.140 DEBUG: OnBeforeClose() hwnd=3867688
+- 00:56:18.140 DEBUG: RemoveBrowserWindow(): hwnd = 3867688
+- 00:56:18.140 DEBUG: GetBrowserWindow(): not found, hwnd = 3867688
+- 00:56:18.140 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:56:18.140 DEBUG: Calling CefQuitMessageLoop()
+- 00:56:18.172 INFO: Ended application
+- 00:56:18.172 INFO: --------------------------------------------------------
+- 00:56:39.000 INFO: --------------------------------------------------------
+- 00:56:39.000 INFO: Started application
+- 00:56:39.000 INFO: Logging to: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log
+- 00:56:39.000 INFO: Log level = DEBUG4
+- 00:56:39.000 INFO: Starting Mongoose 3.9c web server
+- 00:56:39.000 INFO: WWW directory: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\www
+- 00:56:39.000 INFO: Index files: login.html,login.php
+- 00:56:39.000 INFO: CGI interpreter: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\php\php-cgi.exe
+- 00:56:39.000 INFO: CGI pattern: **.php$
+- 00:56:39.000 INFO: Hide files patterns: 
+- 00:56:39.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WELING~1\AppData\Local\Temp\
+- 00:56:39.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:56:39.000 INFO: Web server url: http://127.0.0.1:63771/
+- 00:56:39.000 INFO: remote_debugging_port = 59372
+- 00:56:39.000 DEBUG: Command line string for the browser process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --remote-debugging-port=59372
+- 00:56:39.063 DEBUG: App::OnContextInitialized()
+- 00:56:39.063 INFO: DPI, window enlarged by 50% new width/height = 1200/900
+- 00:56:39.063 DEBUG: Window max width/height = 1846/1038
+- 00:56:39.063 DEBUG: GetBrowserWindow(): not found, hwnd = 3474828
+- 00:56:39.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:56:39.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:56:39.063 DEBUG: StoreBrowserWindow(): hwnd = 3474828
+- 00:56:40.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x13c2 --gpu-driver-vendor=NVIDIA --gpu-driver-version=27.21.14.5671 --gpu-driver-date=9-30-2020 --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --service-request-channel-token=33A3773DE492EA7AC4E3FB89E4EB90D5 --mojo-platform-channel-handle=1752 /prefetch:2
+- 00:56:40.094 DEBUG: ClientHandler::OnAfterCreated()
+- 00:56:40.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:56:40.109 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:56:40.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=1181D224257B1A31D5C69276F10BEB4E --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1181D224257B1A31D5C69276F10BEB4E --renderer-client-id=3 --mojo-platform-channel-handle=2376 /prefetch:1
+- 00:56:40.015 DEBUG: OnBrowserCreated()
+[0213/005640.091:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:56:41.281 INFO: GET 200 /
+- 00:56:41.281 INFO: GET 200 /css/index.css
+- 00:56:41.281 INFO: GET 200 /css/photon.css
+- 00:56:41.281 INFO: GET 200 /css/login.css
+- 00:56:41.281 INFO: GET 200 /js/logica.js
+- 00:56:41.297 INFO: GET 200 /img/logo.png
+- 00:56:41.156 DEBUG: OnContextCreated()
+[0213/005641.215:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63771/js/logica.js (1)
+- 00:56:41.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63771/
+- 00:56:59.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63771/
+- 00:56:59.875 DEBUG: OnContextCreated()
+- 00:56:59.031 INFO: GET 200 /
+- 00:56:59.031 INFO: GET 200 /css/index.css
+- 00:56:59.031 INFO: GET 200 /css/photon.css
+- 00:56:59.031 INFO: GET 200 /css/login.css
+- 00:56:59.078 INFO: GET 200 /js/logica.js
+- 00:56:59.078 INFO: GET 200 /img/logo.png
+[0213/005700.077:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63771/js/logica.js (1)
+- 00:57:00.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63771/
+- 00:58:23.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63771/
+- 00:58:23.187 DEBUG: OnContextCreated()
+- 00:58:23.328 INFO: GET 200 /
+- 00:58:23.328 INFO: GET 200 /css/index.css
+- 00:58:23.328 INFO: GET 200 /css/photon.css
+- 00:58:23.328 INFO: GET 200 /css/login.css
+- 00:58:23.328 INFO: GET 200 /js/logica.js
+- 00:58:23.328 INFO: GET 200 /img/logo.png
+[0213/005823.302:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63771/js/logica.js (1)
+- 00:58:23.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63771/
+- 00:58:42.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63771/
+- 00:58:42.453 DEBUG: OnContextCreated()
+- 00:58:42.594 INFO: GET 200 /
+- 00:58:42.594 INFO: GET 200 /css/index.css
+- 00:58:42.594 INFO: GET 200 /css/photon.css
+- 00:58:42.594 INFO: GET 200 /css/login.css
+- 00:58:42.594 INFO: GET 200 /js/logica.js
+- 00:58:42.609 INFO: GET 200 /img/logo.png
+[0213/005842.570:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63771/js/logica.js (1)
+- 00:58:42.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63771/
+- 00:58:45.719 DEBUG: F12 pressed, opening developer tools
+- 00:58:45.734 DEBUG: ClientHandler::OnAfterCreated()
+- 00:58:45.734 DEBUG: GetBrowserWindow(): not found, hwnd = 6555034
+- 00:58:45.734 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 00:58:45.734 DEBUG: StoreBrowserWindow(): hwnd = 6555034
+- 00:58:45.734 DEBUG: Centering popup window relative to its parent
+- 00:58:45.734 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:58:45.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=6029C22CEDE468A2F31ED3FBE9F9D3AB --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6029C22CEDE468A2F31ED3FBE9F9D3AB --renderer-client-id=4 --mojo-platform-channel-handle=3420 /prefetch:1
+- 00:58:45.031 DEBUG: OnBrowserCreated()
+- 00:58:45.031 DEBUG: OnContextCreated()
+- 00:58:45.906 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 00:58:48.094 DEBUG: OnBeforeClose() hwnd=6555034
+- 00:58:48.094 DEBUG: RemoveBrowserWindow(): hwnd = 6555034
+- 00:58:50.281 DEBUG: ClientHandler::OnAfterCreated()
+- 00:58:50.281 DEBUG: GetBrowserWindow(): not found, hwnd = 6686106
+- 00:58:50.281 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 00:58:50.281 DEBUG: StoreBrowserWindow(): hwnd = 6686106
+- 00:58:50.281 DEBUG: Centering popup window relative to its parent
+- 00:58:50.281 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:58:50.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=92B2B8B610AF12C133340AE0E193829D --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=92B2B8B610AF12C133340AE0E193829D --renderer-client-id=5 --mojo-platform-channel-handle=3608 /prefetch:1
+- 00:58:50.015 DEBUG: OnBrowserCreated()
+- 00:58:50.031 DEBUG: OnContextCreated()
+- 00:58:50.453 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 00:58:51.750 DEBUG: OnBeforeClose() hwnd=6686106
+- 00:58:51.750 DEBUG: RemoveBrowserWindow(): hwnd = 6686106
+- 00:59:13.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63771/
+- 00:59:13.797 DEBUG: OnContextCreated()
+- 00:59:13.938 INFO: GET 200 /
+- 00:59:13.938 INFO: GET 200 /css/index.css
+- 00:59:13.938 INFO: GET 200 /css/photon.css
+- 00:59:13.938 INFO: GET 200 /css/login.css
+- 00:59:13.953 INFO: GET 200 /js/logica.js
+- 00:59:13.953 INFO: GET 200 /img/logo.png
+[0213/005913.917:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63771/js/logica.js (1)
+- 00:59:13.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63771/
+- 00:59:15.438 DEBUG: F12 pressed, opening developer tools
+- 00:59:15.453 DEBUG: ClientHandler::OnAfterCreated()
+- 00:59:15.453 DEBUG: GetBrowserWindow(): not found, hwnd = 7341466
+- 00:59:15.453 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 00:59:15.453 DEBUG: StoreBrowserWindow(): hwnd = 7341466
+- 00:59:15.453 DEBUG: Centering popup window relative to its parent
+- 00:59:15.453 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:59:15.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=74FE9B95AE9653C0CEAABBEE5D85021D --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=74FE9B95AE9653C0CEAABBEE5D85021D --renderer-client-id=6 --mojo-platform-channel-handle=4020 /prefetch:1
+- 00:59:15.032 DEBUG: OnBrowserCreated()
+- 00:59:15.032 DEBUG: OnContextCreated()
+- 00:59:15.641 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 00:59:17.891 DEBUG: OnBeforeClose() hwnd=7341466
+- 00:59:17.891 DEBUG: RemoveBrowserWindow(): hwnd = 7341466
+- 00:59:23.125 DEBUG: WM_DESTROY
+- 00:59:23.125 DEBUG: RemoveBrowserWindow(): hwnd = 3474828
+- 00:59:23.125 INFO: Stopping Mongoose web server
+- 00:59:23.125 DEBUG: Mongoose webserver stopped immediately
+- 00:59:23.125 DEBUG: OnBeforeClose() hwnd=3671292
+- 00:59:23.125 DEBUG: RemoveBrowserWindow(): hwnd = 3671292
+- 00:59:23.125 DEBUG: GetBrowserWindow(): not found, hwnd = 3671292
+- 00:59:23.125 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:59:23.125 DEBUG: Calling CefQuitMessageLoop()
+- 00:59:23.141 INFO: Ended application
+- 00:59:23.141 INFO: --------------------------------------------------------
+- 00:59:31.000 INFO: --------------------------------------------------------
+- 00:59:31.000 INFO: Started application
+- 00:59:31.000 INFO: Logging to: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log
+- 00:59:31.000 INFO: Log level = DEBUG4
+- 00:59:31.000 INFO: Starting Mongoose 3.9c web server
+- 00:59:31.000 INFO: WWW directory: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\www
+- 00:59:31.000 INFO: Index files: login.html,login.php
+- 00:59:31.000 INFO: CGI interpreter: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\php\php-cgi.exe
+- 00:59:31.000 INFO: CGI pattern: **.php$
+- 00:59:31.000 INFO: Hide files patterns: 
+- 00:59:31.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WELING~1\AppData\Local\Temp\
+- 00:59:31.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:59:31.016 INFO: Web server url: http://127.0.0.1:63811/
+- 00:59:31.016 INFO: remote_debugging_port = 61881
+- 00:59:31.016 DEBUG: Command line string for the browser process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --remote-debugging-port=61881
+- 00:59:31.063 DEBUG: App::OnContextInitialized()
+- 00:59:31.063 INFO: DPI, window enlarged by 50% new width/height = 1200/900
+- 00:59:31.063 DEBUG: Window max width/height = 1846/1038
+- 00:59:31.063 DEBUG: GetBrowserWindow(): not found, hwnd = 1246560
+- 00:59:31.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:59:31.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:59:31.063 DEBUG: StoreBrowserWindow(): hwnd = 1246560
+- 00:59:31.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x13c2 --gpu-driver-vendor=NVIDIA --gpu-driver-version=27.21.14.5671 --gpu-driver-date=9-30-2020 --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --service-request-channel-token=95174C29FAF3C2B3F376486875788770 --mojo-platform-channel-handle=1768 /prefetch:2
+- 00:59:31.110 DEBUG: ClientHandler::OnAfterCreated()
+- 00:59:31.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:59:31.110 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:59:31.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=A44CFF8048B32581F99BB94F77554B9D --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A44CFF8048B32581F99BB94F77554B9D --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+- 00:59:31.016 DEBUG: OnBrowserCreated()
+[0213/005931.325:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:59:32.266 INFO: GET 200 /
+- 00:59:32.266 INFO: GET 200 /css/index.css
+- 00:59:32.266 INFO: GET 200 /css/photon.css
+- 00:59:32.266 INFO: GET 200 /css/login.css
+- 00:59:32.282 INFO: GET 200 /js/logica.js
+- 00:59:32.282 INFO: GET 200 /img/logo.png
+- 00:59:32.141 DEBUG: OnContextCreated()
+[0213/005932.440:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 00:59:32.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/
+- 00:59:41.407 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/
+- 00:59:41.407 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/#
+- 01:00:06.032 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/#
+- 01:00:06.984 DEBUG: OnContextCreated()
+- 01:00:06.125 INFO: GET 200 /index.php
+- 01:00:06.141 INFO: GET 200 /img/user.svg
+[0213/010006.301:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:06.157 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/index.php
+[0213/010011.741:INFO:CONSOLE(71)] "clicou no btn Caixa", source: http://127.0.0.1:63811/js/logica.js (71)
+- 01:00:11.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/index.php
+- 01:00:11.547 DEBUG: OnContextCreated()
+- 01:00:11.688 INFO: GET 200 /caixa.php
+[0213/010011.856:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:11.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/caixa.php
+[0213/010013.004:INFO:CONSOLE(52)] "clicou no btn HOME", source: http://127.0.0.1:63811/js/logica.js (52)
+- 01:00:13.860 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/caixa.php
+- 01:00:13.813 DEBUG: OnContextCreated()
+- 01:00:13.954 INFO: GET 200 /index.php
+[0213/010013.122:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:13.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/index.php
+[0213/010013.884:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:13.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/index.php
+- 01:00:13.688 DEBUG: OnContextCreated()
+- 01:00:13.844 INFO: GET 200 /os.php
+[0213/010014.000:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:14.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010016.324:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:16.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:16.125 DEBUG: OnContextCreated()
+- 01:00:16.266 INFO: GET 200 /os.php
+[0213/010016.438:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:16.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010017.181:INFO:CONSOLE(62)] "clicou no btn cliente", source: http://127.0.0.1:63811/js/logica.js (62)
+- 01:00:17.032 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:17.984 DEBUG: OnContextCreated()
+- 01:00:17.141 INFO: GET 200 /clientes.php
+[0213/010017.295:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:17.157 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/clientes.php
+[0213/010018.708:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:18.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/clientes.php
+- 01:00:18.516 DEBUG: OnContextCreated()
+- 01:00:18.657 INFO: GET 200 /os.php
+[0213/010018.824:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:18.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010020.316:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:20.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:20.125 DEBUG: OnContextCreated()
+- 01:00:20.266 INFO: GET 200 /os.php
+[0213/010020.432:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:20.282 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010021.164:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:21.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:21.969 DEBUG: OnContextCreated()
+- 01:00:21.110 INFO: GET 200 /os.php
+[0213/010021.276:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:21.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010021.965:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:21.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:22.766 DEBUG: OnContextCreated()
+- 01:00:22.922 INFO: GET 200 /os.php
+[0213/010022.079:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:22.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010022.173:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:22.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:22.984 DEBUG: OnContextCreated()
+- 01:00:22.125 INFO: GET 200 /os.php
+[0213/010022.294:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:22.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010027.061:INFO:CONSOLE(52)] "clicou no btn HOME", source: http://127.0.0.1:63811/js/logica.js (52)
+- 01:00:27.907 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:27.859 DEBUG: OnContextCreated()
+- 01:00:27.016 INFO: GET 200 /index.php
+[0213/010027.174:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:27.032 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/index.php
+[0213/010028.772:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:28.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/index.php
+- 01:00:28.578 DEBUG: OnContextCreated()
+- 01:00:28.719 INFO: GET 200 /os.php
+[0213/010028.885:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:28.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010029.764:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:29.610 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:29.578 DEBUG: OnContextCreated()
+- 01:00:29.719 INFO: GET 200 /os.php
+[0213/010029.877:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:29.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010030.429:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:30.282 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:30.234 DEBUG: OnContextCreated()
+- 01:00:30.375 INFO: GET 200 /os.php
+[0213/010030.540:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:30.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010031.205:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:31.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:31.000 DEBUG: OnContextCreated()
+- 01:00:31.157 INFO: GET 200 /os.php
+[0213/010031.311:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:31.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010031.397:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:31.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:31.203 DEBUG: OnContextCreated()
+- 01:00:31.344 INFO: GET 200 /os.php
+[0213/010031.506:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:31.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010031.597:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:31.454 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:31.547 INFO: GET 200 /os.php
+- 01:00:31.406 DEBUG: OnContextCreated()
+[0213/010031.707:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:31.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010031.788:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:31.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:31.594 DEBUG: OnContextCreated()
+- 01:00:31.735 INFO: GET 200 /os.php
+[0213/010031.905:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:31.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010032.149:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:32.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:32.953 DEBUG: OnContextCreated()
+- 01:00:32.094 INFO: GET 200 /os.php
+[0213/010032.260:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:32.110 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010033.156:INFO:CONSOLE(62)] "clicou no btn cliente", source: http://127.0.0.1:63811/js/logica.js (62)
+- 01:00:33.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:33.969 DEBUG: OnContextCreated()
+- 01:00:33.110 INFO: GET 200 /clientes.php
+[0213/010033.269:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:33.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/clientes.php
+[0213/010034.468:INFO:CONSOLE(62)] "clicou no btn cliente", source: http://127.0.0.1:63811/js/logica.js (62)
+- 01:00:34.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/clientes.php
+- 01:00:34.281 DEBUG: OnContextCreated()
+- 01:00:34.422 INFO: GET 200 /clientes.php
+[0213/010034.586:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:34.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/clientes.php
+[0213/010035.077:INFO:CONSOLE(62)] "clicou no btn cliente", source: http://127.0.0.1:63811/js/logica.js (62)
+- 01:00:35.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/clientes.php
+- 01:00:35.875 DEBUG: OnContextCreated()
+- 01:00:35.032 INFO: GET 200 /clientes.php
+[0213/010035.188:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:35.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/clientes.php
+[0213/010035.277:INFO:CONSOLE(62)] "clicou no btn cliente", source: http://127.0.0.1:63811/js/logica.js (62)
+- 01:00:35.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/clientes.php
+- 01:00:35.078 DEBUG: OnContextCreated()
+- 01:00:35.235 INFO: GET 200 /clientes.php
+[0213/010035.391:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:35.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/clientes.php
+[0213/010035.724:INFO:CONSOLE(67)] "clicou no btn Produtos", source: http://127.0.0.1:63811/js/logica.js (67)
+- 01:00:35.579 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/clientes.php
+- 01:00:35.531 DEBUG: OnContextCreated()
+- 01:00:35.672 INFO: GET 200 /produtos.php
+[0213/010035.836:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:35.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/produtos.php
+[0213/010036.357:INFO:CONSOLE(67)] "clicou no btn Produtos", source: http://127.0.0.1:63811/js/logica.js (67)
+- 01:00:36.204 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/produtos.php
+- 01:00:36.156 DEBUG: OnContextCreated()
+- 01:00:36.313 INFO: GET 200 /produtos.php
+[0213/010036.467:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:36.329 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/produtos.php
+[0213/010036.556:INFO:CONSOLE(67)] "clicou no btn Produtos", source: http://127.0.0.1:63811/js/logica.js (67)
+- 01:00:36.407 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/produtos.php
+- 01:00:36.359 DEBUG: OnContextCreated()
+- 01:00:36.500 INFO: GET 200 /produtos.php
+[0213/010036.667:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:36.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/produtos.php
+[0213/010036.748:INFO:CONSOLE(67)] "clicou no btn Produtos", source: http://127.0.0.1:63811/js/logica.js (67)
+- 01:00:36.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/produtos.php
+- 01:00:36.547 DEBUG: OnContextCreated()
+- 01:00:36.688 INFO: GET 200 /produtos.php
+[0213/010036.860:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:36.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/produtos.php
+[0213/010037.308:INFO:CONSOLE(71)] "clicou no btn Caixa", source: http://127.0.0.1:63811/js/logica.js (71)
+- 01:00:37.157 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/produtos.php
+- 01:00:37.109 DEBUG: OnContextCreated()
+- 01:00:37.250 INFO: GET 200 /caixa.php
+[0213/010037.420:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:37.282 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/caixa.php
+[0213/010037.581:INFO:CONSOLE(71)] "clicou no btn Caixa", source: http://127.0.0.1:63811/js/logica.js (71)
+- 01:00:37.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/caixa.php
+- 01:00:37.375 DEBUG: OnContextCreated()
+- 01:00:37.532 INFO: GET 200 /caixa.php
+[0213/010037.688:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:37.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/caixa.php
+[0213/010037.772:INFO:CONSOLE(71)] "clicou no btn Caixa", source: http://127.0.0.1:63811/js/logica.js (71)
+- 01:00:37.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/caixa.php
+- 01:00:37.578 DEBUG: OnContextCreated()
+- 01:00:37.719 INFO: GET 200 /caixa.php
+[0213/010037.882:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:37.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/caixa.php
+[0213/010037.981:INFO:CONSOLE(71)] "clicou no btn Caixa", source: http://127.0.0.1:63811/js/logica.js (71)
+- 01:00:37.829 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/caixa.php
+- 01:00:38.781 DEBUG: OnContextCreated()
+- 01:00:38.922 INFO: GET 200 /caixa.php
+[0213/010038.087:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:38.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/caixa.php
+[0213/010039.436:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:39.282 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/caixa.php
+- 01:00:39.250 DEBUG: OnContextCreated()
+- 01:00:39.391 INFO: GET 200 /os.php
+- 01:00:39.391 INFO: GET 304 /js/logica.js
+[0213/010039.550:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:39.407 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+[0213/010039.645:INFO:CONSOLE(62)] "clicou no btn cliente", source: http://127.0.0.1:63811/js/logica.js (62)
+- 01:00:39.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/os.php
+- 01:00:39.453 DEBUG: OnContextCreated()
+- 01:00:39.594 INFO: GET 200 /clientes.php
+- 01:00:39.594 INFO: GET 304 /js/logica.js
+[0213/010039.756:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:39.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/clientes.php
+[0213/010040.772:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63811/js/logica.js (57)
+- 01:00:40.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63811/clientes.php
+- 01:00:40.578 DEBUG: OnContextCreated()
+- 01:00:40.719 INFO: GET 200 /os.php
+- 01:00:40.719 INFO: GET 304 /js/logica.js
+[0213/010040.885:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63811/js/logica.js (1)
+- 01:00:40.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63811/os.php
+- 01:00:42.547 DEBUG: WM_DESTROY
+- 01:00:42.547 DEBUG: RemoveBrowserWindow(): hwnd = 1246560
+- 01:00:42.547 INFO: Stopping Mongoose web server
+- 01:00:42.547 DEBUG: Mongoose webserver stopped immediately
+- 01:00:42.547 DEBUG: OnBeforeClose() hwnd=3473722
+- 01:00:42.547 DEBUG: RemoveBrowserWindow(): hwnd = 3473722
+- 01:00:42.547 DEBUG: GetBrowserWindow(): not found, hwnd = 3473722
+- 01:00:42.547 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:00:42.547 DEBUG: Calling CefQuitMessageLoop()
+- 01:00:42.422 DEBUG: OnBrowserDestroyed()
+- 01:00:42.579 INFO: Ended application
+- 01:00:42.579 INFO: --------------------------------------------------------
+- 01:01:15.000 INFO: --------------------------------------------------------
+- 01:01:15.000 INFO: Started application
+- 01:01:15.000 INFO: Logging to: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log
+- 01:01:15.000 INFO: Log level = DEBUG4
+- 01:01:15.000 INFO: Starting Mongoose 3.9c web server
+- 01:01:15.000 INFO: WWW directory: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\www
+- 01:01:15.015 INFO: Index files: login.html,login.php
+- 01:01:15.015 INFO: CGI interpreter: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\php\php-cgi.exe
+- 01:01:15.015 INFO: CGI pattern: **.php$
+- 01:01:15.015 INFO: Hide files patterns: 
+- 01:01:15.015 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WELING~1\AppData\Local\Temp\
+- 01:01:15.015 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 01:01:15.015 INFO: Web server url: http://127.0.0.1:63862/
+- 01:01:15.015 INFO: remote_debugging_port = 52878
+- 01:01:15.015 DEBUG: Command line string for the browser process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --remote-debugging-port=52878
+- 01:01:15.062 DEBUG: App::OnContextInitialized()
+- 01:01:15.062 INFO: DPI, window enlarged by 50% new width/height = 1200/900
+- 01:01:15.062 DEBUG: Window max width/height = 1846/1038
+- 01:01:15.078 DEBUG: GetBrowserWindow(): not found, hwnd = 2556788
+- 01:01:15.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 01:01:15.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 01:01:15.078 DEBUG: StoreBrowserWindow(): hwnd = 2556788
+- 01:01:15.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x13c2 --gpu-driver-vendor=NVIDIA --gpu-driver-version=27.21.14.5671 --gpu-driver-date=9-30-2020 --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --service-request-channel-token=133F1CAE2EDED1A27F7B8ECAF096CFFF --mojo-platform-channel-handle=1772 /prefetch:2
+- 01:01:15.109 DEBUG: ClientHandler::OnAfterCreated()
+- 01:01:15.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 01:01:15.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:01:15.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=EA08BF724EA0DD83E3785CB6A967871B --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=EA08BF724EA0DD83E3785CB6A967871B --renderer-client-id=3 --mojo-platform-channel-handle=2344 /prefetch:1
+- 01:01:15.032 DEBUG: OnBrowserCreated()
+[0213/010115.683:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 01:01:16.281 INFO: GET 200 /
+- 01:01:16.281 INFO: GET 200 /css/index.css
+- 01:01:16.281 INFO: GET 200 /css/login.css
+- 01:01:16.281 INFO: GET 200 /css/photon.css
+- 01:01:16.281 INFO: GET 200 /js/logica.js
+- 01:01:16.281 INFO: GET 200 /img/logo.png
+- 01:01:16.157 DEBUG: OnContextCreated()
+[0213/010116.803:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:16.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/
+- 01:01:24.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/
+- 01:01:24.907 DEBUG: OnContextCreated()
+- 01:01:24.047 INFO: GET 200 /index.php
+- 01:01:24.047 INFO: GET 200 /img/user.svg
+[0213/010124.577:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:24.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/index.php
+[0213/010126.429:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63862/js/logica.js (57)
+- 01:01:26.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/index.php
+- 01:01:26.875 DEBUG: OnContextCreated()
+- 01:01:26.015 INFO: GET 200 /os.php
+[0213/010126.542:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:26.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/os.php
+[0213/010128.245:INFO:CONSOLE(52)] "clicou no btn HOME", source: http://127.0.0.1:63862/js/logica.js (52)
+- 01:01:28.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/os.php
+- 01:01:28.688 DEBUG: OnContextCreated()
+- 01:01:28.828 INFO: GET 200 /index.php
+[0213/010128.358:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:28.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/index.php
+[0213/010129.052:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63862/js/logica.js (57)
+- 01:01:29.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/index.php
+- 01:01:29.500 DEBUG: OnContextCreated()
+- 01:01:29.656 INFO: GET 200 /os.php
+[0213/010129.173:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:29.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/os.php
+[0213/010129.716:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63862/js/logica.js (57)
+- 01:01:29.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/os.php
+- 01:01:29.157 DEBUG: OnContextCreated()
+- 01:01:29.312 INFO: GET 200 /os.php
+[0213/010129.828:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:29.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/os.php
+[0213/010130.373:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63862/js/logica.js (57)
+- 01:01:30.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/os.php
+- 01:01:30.813 DEBUG: OnContextCreated()
+- 01:01:30.969 INFO: GET 200 /os.php
+[0213/010130.485:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:30.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/os.php
+[0213/010131.372:INFO:CONSOLE(62)] "clicou no btn cliente", source: http://127.0.0.1:63862/js/logica.js (62)
+- 01:01:31.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/os.php
+- 01:01:31.813 DEBUG: OnContextCreated()
+- 01:01:31.953 INFO: GET 200 /clientes.php
+[0213/010131.483:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:31.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/clientes.php
+[0213/010131.989:INFO:CONSOLE(62)] "clicou no btn cliente", source: http://127.0.0.1:63862/js/logica.js (62)
+- 01:01:31.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/clientes.php
+- 01:01:32.438 DEBUG: OnContextCreated()
+- 01:01:32.578 INFO: GET 200 /clientes.php
+[0213/010132.104:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:32.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/clientes.php
+[0213/010132.572:INFO:CONSOLE(62)] "clicou no btn cliente", source: http://127.0.0.1:63862/js/logica.js (62)
+- 01:01:32.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/clientes.php
+- 01:01:32.016 DEBUG: OnContextCreated()
+- 01:01:32.156 INFO: GET 200 /clientes.php
+[0213/010132.686:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:32.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/clientes.php
+[0213/010133.388:INFO:CONSOLE(62)] "clicou no btn cliente", source: http://127.0.0.1:63862/js/logica.js (62)
+- 01:01:33.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/clientes.php
+- 01:01:33.829 DEBUG: OnContextCreated()
+- 01:01:33.969 INFO: GET 200 /clientes.php
+[0213/010133.496:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:33.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/clientes.php
+[0213/010134.036:INFO:CONSOLE(67)] "clicou no btn Produtos", source: http://127.0.0.1:63862/js/logica.js (67)
+- 01:01:34.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/clientes.php
+- 01:01:34.485 DEBUG: OnContextCreated()
+- 01:01:34.625 INFO: GET 200 /produtos.php
+[0213/010134.144:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:34.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/produtos.php
+[0213/010134.788:INFO:CONSOLE(67)] "clicou no btn Produtos", source: http://127.0.0.1:63862/js/logica.js (67)
+- 01:01:34.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/produtos.php
+- 01:01:34.235 DEBUG: OnContextCreated()
+- 01:01:34.375 INFO: GET 200 /produtos.php
+[0213/010134.900:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:34.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/produtos.php
+[0213/010135.300:INFO:CONSOLE(67)] "clicou no btn Produtos", source: http://127.0.0.1:63862/js/logica.js (67)
+- 01:01:35.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/produtos.php
+- 01:01:35.750 DEBUG: OnContextCreated()
+- 01:01:35.890 INFO: GET 200 /produtos.php
+[0213/010135.414:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:35.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/produtos.php
+[0213/010135.908:INFO:CONSOLE(71)] "clicou no btn Caixa", source: http://127.0.0.1:63862/js/logica.js (71)
+- 01:01:35.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/produtos.php
+- 01:01:36.360 DEBUG: OnContextCreated()
+- 01:01:36.500 INFO: GET 200 /caixa.php
+[0213/010136.019:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:36.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/caixa.php
+[0213/010136.486:INFO:CONSOLE(71)] "clicou no btn Caixa", source: http://127.0.0.1:63862/js/logica.js (71)
+- 01:01:36.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/caixa.php
+- 01:01:36.938 DEBUG: OnContextCreated()
+- 01:01:36.078 INFO: GET 200 /caixa.php
+[0213/010136.600:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:36.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/caixa.php
+[0213/010137.005:INFO:CONSOLE(71)] "clicou no btn Caixa", source: http://127.0.0.1:63862/js/logica.js (71)
+- 01:01:37.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/caixa.php
+- 01:01:37.454 DEBUG: OnContextCreated()
+- 01:01:37.594 INFO: GET 200 /caixa.php
+[0213/010137.117:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:37.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/caixa.php
+[0213/010139.908:INFO:CONSOLE(71)] "clicou no btn Caixa", source: http://127.0.0.1:63862/js/logica.js (71)
+- 01:01:39.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/caixa.php
+- 01:01:40.360 DEBUG: OnContextCreated()
+- 01:01:40.500 INFO: GET 200 /caixa.php
+[0213/010140.023:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:40.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/caixa.php
+[0213/010140.333:INFO:CONSOLE(71)] "clicou no btn Caixa", source: http://127.0.0.1:63862/js/logica.js (71)
+- 01:01:40.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/caixa.php
+- 01:01:40.782 DEBUG: OnContextCreated()
+- 01:01:40.922 INFO: GET 200 /caixa.php
+[0213/010140.447:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:40.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/caixa.php
+[0213/010140.973:INFO:CONSOLE(71)] "clicou no btn Caixa", source: http://127.0.0.1:63862/js/logica.js (71)
+- 01:01:40.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/caixa.php
+- 01:01:41.422 DEBUG: OnContextCreated()
+- 01:01:41.562 INFO: GET 200 /caixa.php
+[0213/010141.083:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:41.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/caixa.php
+[0213/010141.413:INFO:CONSOLE(71)] "clicou no btn Caixa", source: http://127.0.0.1:63862/js/logica.js (71)
+- 01:01:41.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/caixa.php
+- 01:01:41.860 DEBUG: OnContextCreated()
+- 01:01:41.000 INFO: GET 200 /caixa.php
+[0213/010141.525:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:41.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/caixa.php
+[0213/010142.381:INFO:CONSOLE(52)] "clicou no btn HOME", source: http://127.0.0.1:63862/js/logica.js (52)
+- 01:01:42.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63862/caixa.php
+- 01:01:42.829 DEBUG: OnContextCreated()
+- 01:01:42.969 INFO: GET 200 /index.php
+[0213/010142.490:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63862/js/logica.js (1)
+- 01:01:42.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63862/index.php
+- 01:01:43.047 DEBUG: ClientHandler::OnBeforePopup()
+- 01:01:43.047 INFO: Setting default size for a popup window 800/600
+- 01:01:43.047 INFO: DPI, window enlarged by 50% new width/height = 1200/900
+- 01:01:43.047 DEBUG: Window max width/height = 1846/1038
+- 01:01:43.907 DEBUG: OnBrowserCreated()
+- 01:01:43.062 DEBUG: ClientHandler::OnAfterCreated()
+- 01:01:43.062 DEBUG: GetBrowserWindow(): not found, hwnd = 4523330
+- 01:01:43.062 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 01:01:43.062 DEBUG: StoreBrowserWindow(): hwnd = 4523330
+- 01:01:43.062 DEBUG: Centering popup window relative to its parent
+- 01:01:43.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:01:44.875 DEBUG: OnContextCreated()
+[0213/010144.931:INFO:CONSOLE(0)] "
+%cStop!", source:  (0)
+[0213/010144.932:INFO:CONSOLE(0)] "
+%cThis is a browser feature intended for developers. If someone told you to copy-paste something here to enable a Facebook feature or "hack" someone's account, it is a scam and will give them access to your Facebook account.", source:  (0)
+[0213/010144.932:INFO:CONSOLE(0)] "
+%cSee https://www.facebook.com/selfxss for more information.", source:  (0)
+[0213/010144.932:INFO:CONSOLE(0)] "
+%c", source:  (0)
+- 01:01:44.329 DEBUG: OnContextCreated()
+- 01:01:45.875 DEBUG: OnLoadingStateChange: loading=0, url=https://www.facebook.com/NegrillosBF
+- 01:01:49.828 DEBUG: OnBeforeClose() hwnd=4523330
+- 01:01:49.828 DEBUG: RemoveBrowserWindow(): hwnd = 4523330
+- 01:01:49.704 DEBUG: OnBrowserDestroyed()
+- 01:01:49.359 DEBUG: WM_DESTROY
+- 01:01:49.359 DEBUG: RemoveBrowserWindow(): hwnd = 2556788
+- 01:01:49.359 INFO: Stopping Mongoose web server
+- 01:01:49.359 DEBUG: Mongoose webserver stopped immediately
+- 01:01:49.359 DEBUG: OnBeforeClose() hwnd=1115626
+- 01:01:49.359 DEBUG: RemoveBrowserWindow(): hwnd = 1115626
+- 01:01:49.359 DEBUG: GetBrowserWindow(): not found, hwnd = 1115626
+- 01:01:49.359 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:01:49.359 DEBUG: Calling CefQuitMessageLoop()
+- 01:01:49.219 DEBUG: OnBrowserDestroyed()
+- 01:01:49.390 INFO: Ended application
+- 01:01:49.390 INFO: --------------------------------------------------------
+- 01:02:45.000 INFO: --------------------------------------------------------
+- 01:02:45.000 INFO: Started application
+- 01:02:45.000 INFO: Logging to: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log
+- 01:02:45.000 INFO: Log level = DEBUG4
+- 01:02:45.000 INFO: Starting Mongoose 3.9c web server
+- 01:02:45.000 INFO: WWW directory: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\www
+- 01:02:45.000 INFO: Index files: login.html,login.php
+- 01:02:45.000 INFO: CGI interpreter: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\php\php-cgi.exe
+- 01:02:45.000 INFO: CGI pattern: **.php$
+- 01:02:45.000 INFO: Hide files patterns: 
+- 01:02:45.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WELING~1\AppData\Local\Temp\
+- 01:02:45.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 01:02:45.016 INFO: Web server url: http://127.0.0.1:63899/
+- 01:02:45.016 INFO: remote_debugging_port = 49935
+- 01:02:45.016 DEBUG: Command line string for the browser process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --remote-debugging-port=49935
+- 01:02:45.063 DEBUG: App::OnContextInitialized()
+- 01:02:45.063 INFO: DPI, window enlarged by 50% new width/height = 1200/900
+- 01:02:45.063 DEBUG: Window max width/height = 1846/1038
+- 01:02:45.063 DEBUG: GetBrowserWindow(): not found, hwnd = 7079070
+- 01:02:45.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 01:02:45.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 01:02:45.063 DEBUG: StoreBrowserWindow(): hwnd = 7079070
+- 01:02:45.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x13c2 --gpu-driver-vendor=NVIDIA --gpu-driver-version=27.21.14.5671 --gpu-driver-date=9-30-2020 --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --service-request-channel-token=F9EB219C4516865B3F014C36E65A78DF --mojo-platform-channel-handle=1764 /prefetch:2
+- 01:02:45.110 DEBUG: ClientHandler::OnAfterCreated()
+- 01:02:45.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 01:02:45.110 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:02:45.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=B70895EFBDABB783546349E35EC52D86 --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B70895EFBDABB783546349E35EC52D86 --renderer-client-id=3 --mojo-platform-channel-handle=2344 /prefetch:1
+- 01:02:45.015 DEBUG: OnBrowserCreated()
+[0213/010245.290:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 01:02:46.266 INFO: GET 200 /
+- 01:02:46.266 INFO: GET 200 /css/index.css
+- 01:02:46.266 INFO: GET 200 /css/photon.css
+- 01:02:46.266 INFO: GET 200 /css/login.css
+- 01:02:46.281 INFO: GET 200 /js/logica.js
+- 01:02:46.281 INFO: GET 200 /img/logo.png
+- 01:02:46.156 DEBUG: OnContextCreated()
+[0213/010246.411:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63899/js/logica.js (1)
+- 01:02:46.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63899/
+- 01:03:28.031 DEBUG: F12 pressed, opening developer tools
+- 01:03:28.047 DEBUG: ClientHandler::OnAfterCreated()
+- 01:03:28.047 DEBUG: GetBrowserWindow(): not found, hwnd = 2229698
+- 01:03:28.047 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 01:03:28.047 DEBUG: StoreBrowserWindow(): hwnd = 2229698
+- 01:03:28.047 DEBUG: Centering popup window relative to its parent
+- 01:03:28.047 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:03:28.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=4CD540AB45F77E929177DDB657A23185 --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4CD540AB45F77E929177DDB657A23185 --renderer-client-id=4 --mojo-platform-channel-handle=3008 /prefetch:1
+- 01:03:28.016 DEBUG: OnBrowserCreated()
+- 01:03:28.031 DEBUG: OnContextCreated()
+- 01:03:28.250 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 01:03:40.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63899/
+- 01:03:40.640 DEBUG: OnContextCreated()
+- 01:03:40.781 INFO: GET 200 /index.php
+- 01:03:40.797 INFO: GET 200 /img/user.svg
+[0213/010340.929:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63899/js/logica.js (1)
+- 01:03:40.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63899/index.php
+- 01:04:51.422 DEBUG: OnBeforeClose() hwnd=2229698
+- 01:04:51.422 DEBUG: RemoveBrowserWindow(): hwnd = 2229698
+[0213/010756.612:INFO:CONSOLE(57)] "clicou no btn OS", source: http://127.0.0.1:63899/js/logica.js (57)
+- 01:07:56.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63899/index.php
+- 01:07:56.453 DEBUG: OnContextCreated()
+- 01:07:56.594 INFO: GET 200 /os.php
+- 01:07:56.610 INFO: GET 304 /js/logica.js
+[0213/010756.735:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63899/js/logica.js (1)
+- 01:07:56.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63899/os.php
+[0213/010758.188:INFO:CONSOLE(52)] "clicou no btn HOME", source: http://127.0.0.1:63899/js/logica.js (52)
+- 01:07:58.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63899/os.php
+- 01:07:58.031 DEBUG: OnContextCreated()
+- 01:07:58.172 INFO: GET 200 /index.php
+- 01:07:58.172 INFO: GET 304 /js/logica.js
+[0213/010758.301:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63899/js/logica.js (1)
+- 01:07:58.188 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63899/index.php
+- 01:07:59.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63899/index.php
+- 01:07:59.937 DEBUG: OnContextCreated()
+- 01:07:59.078 INFO: GET 200 /banco.php
+- 01:07:59.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63899/banco.php
+- 01:08:21.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63899/banco.php
+- 01:08:21.812 DEBUG: OnContextCreated()
+[0213/010821.095:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63899/js/logica.js (1)
+- 01:08:21.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63899/index.php
+- 01:08:44.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63899/index.php
+- 01:08:44.015 DEBUG: OnContextCreated()
+- 01:08:44.156 INFO: GET 200 /banco.php
+- 01:08:44.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63899/banco.php
+- 01:09:01.641 DEBUG: WM_DESTROY
+- 01:09:01.641 DEBUG: RemoveBrowserWindow(): hwnd = 7079070
+- 01:09:01.641 INFO: Stopping Mongoose web server
+- 01:09:01.641 DEBUG: Mongoose webserver stopped immediately
+- 01:09:01.641 DEBUG: OnBeforeClose() hwnd=6685758
+- 01:09:01.641 DEBUG: RemoveBrowserWindow(): hwnd = 6685758
+- 01:09:01.641 DEBUG: GetBrowserWindow(): not found, hwnd = 6685758
+- 01:09:01.641 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:09:01.641 DEBUG: Calling CefQuitMessageLoop()
+- 01:09:01.515 DEBUG: OnBrowserDestroyed()
+- 01:09:01.672 INFO: Ended application
+- 01:09:01.672 INFO: --------------------------------------------------------
+- 01:09:41.000 INFO: --------------------------------------------------------
+- 01:09:41.000 INFO: Started application
+- 01:09:41.000 INFO: Logging to: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log
+- 01:09:41.000 INFO: Log level = DEBUG4
+- 01:09:41.000 INFO: Starting Mongoose 3.9c web server
+- 01:09:41.000 INFO: WWW directory: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\www
+- 01:09:41.000 INFO: Index files: login.html,login.php
+- 01:09:41.000 INFO: CGI interpreter: C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\php\php-cgi.exe
+- 01:09:41.000 INFO: CGI pattern: **.php$
+- 01:09:41.000 INFO: Hide files patterns: 
+- 01:09:41.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\WELING~1\AppData\Local\Temp\
+- 01:09:41.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 01:09:41.015 INFO: Web server url: http://127.0.0.1:63984/
+- 01:09:41.015 INFO: remote_debugging_port = 65487
+- 01:09:41.015 DEBUG: Command line string for the browser process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --remote-debugging-port=65487
+- 01:09:41.062 DEBUG: App::OnContextInitialized()
+- 01:09:41.062 INFO: DPI, window enlarged by 50% new width/height = 1200/900
+- 01:09:41.062 DEBUG: Window max width/height = 1846/1038
+- 01:09:41.062 DEBUG: GetBrowserWindow(): not found, hwnd = 2556674
+- 01:09:41.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 01:09:41.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 01:09:41.062 DEBUG: StoreBrowserWindow(): hwnd = 2556674
+- 01:09:41.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x13c2 --gpu-driver-vendor=NVIDIA --gpu-driver-version=27.21.14.5671 --gpu-driver-date=9-30-2020 --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --service-request-channel-token=9BEF0BE66AD548D869421C4FF76CBDEF --mojo-platform-channel-handle=1756 /prefetch:2
+- 01:09:41.109 DEBUG: ClientHandler::OnAfterCreated()
+- 01:09:41.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 01:09:41.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:09:41.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=1958C7A75BFAD12FECDB00765ADD8560 --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1958C7A75BFAD12FECDB00765ADD8560 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+- 01:09:41.016 DEBUG: OnBrowserCreated()
+[0213/010941.355:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 01:09:42.281 INFO: GET 200 /
+- 01:09:42.281 INFO: GET 200 /css/index.css
+- 01:09:42.281 INFO: GET 200 /css/photon.css
+- 01:09:42.281 INFO: GET 200 /css/login.css
+- 01:09:42.281 INFO: GET 200 /js/logica.js
+- 01:09:42.281 INFO: GET 200 /img/logo.png
+- 01:09:42.141 DEBUG: OnContextCreated()
+[0213/010942.479:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63984/js/logica.js (1)
+- 01:09:42.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/
+- 01:09:49.265 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/
+- 01:09:49.219 DEBUG: OnContextCreated()
+- 01:09:49.375 INFO: GET 200 /index.php
+- 01:09:49.375 INFO: GET 200 /img/user.svg
+[0213/010949.567:INFO:CONSOLE(1)] "logica funcionando", source: http://127.0.0.1:63984/js/logica.js (1)
+- 01:09:49.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/index.php
+- 01:09:51.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/index.php
+- 01:09:51.828 DEBUG: OnContextCreated()
+- 01:09:51.968 INFO: GET 200 /banco.php
+- 01:09:51.968 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:09:54.062 DEBUG: ClientHandler::OnAfterCreated()
+- 01:09:54.062 DEBUG: GetBrowserWindow(): not found, hwnd = 1377756
+- 01:09:54.062 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 01:09:54.062 DEBUG: StoreBrowserWindow(): hwnd = 1377756
+- 01:09:54.062 DEBUG: Centering popup window relative to its parent
+- 01:09:54.062 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:09:54.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=762AABA10289F20CC42DF4659643EEE7 --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=762AABA10289F20CC42DF4659643EEE7 --renderer-client-id=4 --mojo-platform-channel-handle=2864 /prefetch:1
+- 01:09:54.016 DEBUG: OnBrowserCreated()
+- 01:09:54.032 DEBUG: OnContextCreated()
+- 01:09:54.234 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 01:12:03.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:12:03.250 DEBUG: OnContextCreated()
+- 01:12:03.390 INFO: GET 200 /banco.php
+- 01:12:03.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:21:18.218 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:21:18.172 DEBUG: OnContextCreated()
+- 01:21:18.312 INFO: GET 200 /banco.php
+- 01:21:18.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:21:22.968 DEBUG: OnBeforeClose() hwnd=1377756
+- 01:21:22.968 DEBUG: RemoveBrowserWindow(): hwnd = 1377756
+- 01:21:22.875 DEBUG: OnBrowserDestroyed()
+- 01:22:38.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:22:39.735 DEBUG: OnContextCreated()
+- 01:22:39.875 INFO: GET 200 /banco.php
+- 01:22:39.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:23:01.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:23:01.641 DEBUG: OnContextCreated()
+- 01:23:01.781 INFO: GET 200 /banco.php
+- 01:23:01.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:23:32.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:23:32.547 DEBUG: OnContextCreated()
+- 01:23:32.687 INFO: GET 200 /banco.php
+- 01:23:32.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:23:42.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:23:42.532 DEBUG: OnContextCreated()
+- 01:23:42.672 INFO: GET 200 /banco.php
+- 01:23:42.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:24:03.093 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:24:03.047 DEBUG: OnContextCreated()
+- 01:24:03.187 INFO: GET 200 /banco.php
+- 01:24:03.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:24:34.765 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:24:35.719 DEBUG: OnContextCreated()
+- 01:24:35.859 INFO: GET 200 /banco.php
+- 01:24:35.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:24:39.531 DEBUG: ClientHandler::OnAfterCreated()
+- 01:24:39.531 DEBUG: GetBrowserWindow(): not found, hwnd = 10224798
+- 01:24:39.531 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 01:24:39.531 DEBUG: StoreBrowserWindow(): hwnd = 10224798
+- 01:24:39.531 DEBUG: Centering popup window relative to its parent
+- 01:24:39.531 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:24:39.000 DEBUG: Command line string for the renderer process: "C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\WFSystem.exe" --type=renderer --no-sandbox --primordial-pipe-token=E1C8644824B8E58313934BF0A81B750D --lang=en-US --lang=en-US --log-file="C:\Users\Welington Fernandes\Documents\JavaScriptProjects\WFSYSTEM\debug.log" --enable-pinch --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E1C8644824B8E58313934BF0A81B750D --renderer-client-id=5 --mojo-platform-channel-handle=3288 /prefetch:1
+- 01:24:39.031 DEBUG: OnBrowserCreated()
+- 01:24:39.031 DEBUG: OnContextCreated()
+- 01:24:39.703 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 01:24:59.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:24:59.250 DEBUG: OnContextCreated()
+- 01:24:59.390 INFO: GET 200 /banco.php
+- 01:24:59.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:25:14.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:25:14.407 DEBUG: OnContextCreated()
+- 01:25:14.562 INFO: GET 200 /banco.php
+- 01:25:14.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:29:12.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:29:12.391 DEBUG: OnContextCreated()
+- 01:29:12.531 INFO: GET 200 /banco.php
+- 01:29:12.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:29:23.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:29:23.407 DEBUG: OnContextCreated()
+- 01:29:23.547 INFO: GET 200 /banco.php
+- 01:29:23.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:29:38.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:29:38.922 DEBUG: OnContextCreated()
+- 01:29:38.062 INFO: GET 200 /banco.php
+- 01:29:38.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:29:50.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:29:50.953 DEBUG: OnContextCreated()
+- 01:29:50.093 INFO: GET 200 /banco.php
+- 01:29:50.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:32:26.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:32:26.032 DEBUG: OnContextCreated()
+- 01:32:26.172 INFO: GET 200 /banco.php
+- 01:32:26.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:33:29.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63984/banco.php
+- 01:33:29.157 DEBUG: OnContextCreated()
+- 01:33:29.297 INFO: GET 200 /banco.php
+- 01:33:29.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63984/banco.php
+- 01:34:17.250 DEBUG: OnBeforeClose() hwnd=10224798
+- 01:34:17.250 DEBUG: RemoveBrowserWindow(): hwnd = 10224798
+- 01:34:17.703 DEBUG: OnBrowserDestroyed()
+- 01:34:18.000 DEBUG: WM_DESTROY
+- 01:34:18.000 DEBUG: RemoveBrowserWindow(): hwnd = 2556674
+- 01:34:18.000 INFO: Stopping Mongoose web server
+- 01:34:18.000 DEBUG: Mongoose webserver stopped immediately
+- 01:34:18.000 DEBUG: OnBeforeClose() hwnd=459572
+- 01:34:18.000 DEBUG: RemoveBrowserWindow(): hwnd = 459572
+- 01:34:18.000 DEBUG: GetBrowserWindow(): not found, hwnd = 459572
+- 01:34:18.000 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:34:18.000 DEBUG: Calling CefQuitMessageLoop()
+- 01:34:18.860 DEBUG: OnBrowserDestroyed()
+- 01:34:18.015 INFO: Ended application
+- 01:34:18.015 INFO: --------------------------------------------------------
