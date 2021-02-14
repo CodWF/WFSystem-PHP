@@ -32,7 +32,7 @@
       </div>
       <br>
       <br>
-      <a class="btn btn-danger align-content-center" href="./banco.php"> AREA DE TESTE</a>
+      <a class="btn btn-danger align-content-center" href="./teste.php"> AREA DE TESTE</a>
 
 
     </div>
